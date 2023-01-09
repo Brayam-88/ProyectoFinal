@@ -1,0 +1,65 @@
+
+img{
+    max-width: 100%;
+}
+.gallery{
+    background-color: rgb(13, 197, 127);
+    padding: 80px 0;
+
+}
+.gallery img{
+    background-color: aliceblue;
+    padding:  15px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+#gallery-modal .modal-img{
+    width: 100%;
+    
+
+}
+.footer-section{
+    background-color: rgb(255, 177, 81);
+    padding-left: 10px 10px 10px 10px;
+}
+
+$primary: rgb(38, 151, 76);
+$danger: rgb(230, 6, 6);
+$alert-border-width:10px;
+
+$navbar-light-color: $danger;
+$navbar-light-active-color: $primary;
+$enable-rounded: false;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+
+
+
+.componente{
+    color: brown; 
+    background-color: $primary;
+    border: solid 5px $green-500;
+}
+
+.bg-navbar{
+
+    @include gradient-directional($start-color: $green-100, $end-color: $green-600, $deg: 45deg)
+
+}
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
