@@ -33,7 +33,7 @@ $alert-border-width:10px;
 
 $navbar-light-color: $danger;
 $navbar-light-active-color: $primary;
-$enable-rounded: false;
+$enable-rounded: true;
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
