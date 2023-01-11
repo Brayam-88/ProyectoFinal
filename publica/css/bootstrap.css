@@ -1,6 +1,7 @@
 @charset "UTF-8";
 img {
   max-width: 100%;
+  margin: 5px;
 }
 
 .gallery {
@@ -9,7 +10,7 @@ img {
 }
 
 .gallery img {
-  background-color: aliceblue;
+  background-color: rgb(166, 213, 255);
   padding: 15px;
   width: 100%;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -23,6 +24,8 @@ img {
 .footer-section {
   background-color: rgb(255, 177, 81);
   padding-left: 10px 10px 10px 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .componente {
